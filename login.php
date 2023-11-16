@@ -21,7 +21,7 @@ if($user){
     $_SESSION['user']=$acc;
     header("location:index.php");
 }else{
-    header('location:login_form.php?error=帳號密碼錯誤');
+    header('location:login_form.php?error=帳號密碼錯誤0');
 }
 
 
