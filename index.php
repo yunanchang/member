@@ -10,8 +10,8 @@
 </head>
 <body class="container">
 <h1>哈哈購商城</h1>
-<header class="nav">
-    <div class="nav-item col-4"></div>
+<header class="nav bg-danger">
+    <div class="nav-item bg-info col-4"></div>
     <div class="nav-item col-4">
         <ul class='d-flex justify-content-evenly'>
             <li>1</li>
