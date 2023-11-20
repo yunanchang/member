@@ -1,6 +1,6 @@
 <?php
 include_once '../include/connect.php';
-session_start();
+
 $acc=$_POST['acc'];
 $pw=$_POST['pw'];
 
