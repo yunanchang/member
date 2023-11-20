@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>會員註冊</h2>    
-<form action="./add_user.php" method="post">
+<form action="../api/add_user.php" method="post">
     <div>
         <label>帳號:</label>
         <input type="text" name="acc" id="acc">

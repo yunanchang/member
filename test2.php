@@ -9,13 +9,13 @@ $sql='select * from students';
 $rows=$pdo->query($sql)->fetch();
 
 echo "<pre>";
-
+// $rows = $pdo->query($sql)->fetchColumn();
 print_r ($rows);
 
 $rows=$pdo->query($sql)->fetch();
 
-print_r ($rows[2]);
+// print_r ($rows[2]);
 
 $rows=$pdo->query($sql)->fetchColumn(3);
 
-print_r ($rows);
+// print_r ($rows);
