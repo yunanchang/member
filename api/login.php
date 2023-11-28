@@ -18,7 +18,8 @@ $pw=$_POST['pw'];
 // }else{
 //     header('location:login_form.php?error=帳號密碼錯誤');
 // }
-$res=total('users',['acc'=>$acc,'pw'=>$pw]);
+// $res=total('users',['acc'=>$acc,'pw'=>$pw]);
+$res=$User->count(['acc'=>$acc,'pw'=>$pw]);
 if($res){
     $_SESSION['user']=$acc;
     header("location:../index.php");
